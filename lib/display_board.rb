@@ -10,6 +10,9 @@ next_one = ["O"," "," "," ","X"," "," "," "," "]
 x_win = ["X","X","X"," "," "," "," "," "," "]
 o_win = [" "," "," "," "," "," ","O","O","O"]
 x_win_2 = ["X"," "," "," ","X"," "," "," ","X"]
+o_win_2 = [" "," ","O"," ","O"," ","O"," "," "]
+arbitrary= ["O","X","O","X"," "," "," "," "," "]
+
 def display_board (board)
   print
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -20,3 +23,13 @@ def display_board (board)
 end
 
 display_board (board)
+display_board (midde_x)
+display_board (all_x)
+display_board (all_o)
+display_board (o_top_left)
+display_board (next_one)
+display_board (x_win)
+display_board (o_win)
+display_board (x_win_2)
+display_board (o_win_2)
+display_board (arbitrary)
